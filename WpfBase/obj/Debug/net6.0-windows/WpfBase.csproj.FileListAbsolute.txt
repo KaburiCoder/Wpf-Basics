@@ -1,0 +1,12 @@
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.csproj.AssemblyReference.cache
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.AssemblyInfoInputs.cache
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.AssemblyInfo.cs
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.csproj.CoreCompileInputs.cache
+C:\YoutubeLecture\WpfBasics\WpfBase\bin\Debug\net6.0-windows\WpfBase.deps.json
+C:\YoutubeLecture\WpfBasics\WpfBase\bin\Debug\net6.0-windows\WpfBase.dll
+C:\YoutubeLecture\WpfBasics\WpfBase\bin\Debug\net6.0-windows\WpfBase.pdb
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.dll
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\refint\WpfBase.dll
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\WpfBase.pdb
+C:\YoutubeLecture\WpfBasics\WpfBase\obj\Debug\net6.0-windows\ref\WpfBase.dll
