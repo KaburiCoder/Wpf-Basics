@@ -6,7 +6,49 @@
         xmlns:local="clr-namespace:EventBasic"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition/>
+      <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
 
-    </Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+    
+    <!--버블링-->
+    <Button
+      Click="Button_Click">
+      <Border 
+        MouseDown="Border_MouseDown"
+        Background="Blue" Width="300" Height="300">
+        <Rectangle 
+          MouseDown="Rectangle_MouseDown"
+          Fill="Red" Width="200" Height="200"/>
+      </Border>
+    </Button>
+
+    <!--터널링-->
+    <Button Grid.Column="1"
+            PreviewMouseDown="Button_PreviewMouseDown">
+      <Border 
+        PreviewMouseDown="Border_PreviewMouseDown"
+        Background="Blue" Width="300" Height="300">
+        <Rectangle
+          PreviewMouseDown="Rectangle_PreviewMouseDown"
+          Fill="Red" Width="200" Height="200"/>
+      </Border>
+    </Button>
+    
+    <!--이벤트순서확인-->
+    <TextBox 
+      Name="txtBubbling"
+      Grid.Row="1" 
+      FontSize="20"/>
+    <TextBox 
+      Name="txtTunneling"
+      Grid.Row="1" Grid.Column="1"
+      FontSize="20"/>
+  </Grid>
 </Window>
