@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ControlTemplateBasic/1.0.0": {
+        "dependencies": {
+          "WpfBase": "1.0.0"
+        },
+        "runtime": {
+          "ControlTemplateBasic.dll": {}
+        }
+      },
+      "WpfBase/1.0.0": {
+        "runtime": {
+          "WpfBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlTemplateBasic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
