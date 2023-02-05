@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfBase", "WpfBase\WpfBase.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTemplateBasic", "DataTemplateBasic\DataTemplateBasic.csproj", "{B1CDAAC4-6E80-4A64-A396-4E403D56C948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTemplateBasic", "ControlTemplateBasic\ControlTemplateBasic.csproj", "{8483755A-4AD5-4D2D-AA92-D1E016297756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlTemplateBasic", "ControlTemplateBasic\ControlTemplateBasic.csproj", "{8483755A-4AD5-4D2D-AA92-D1E016297756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTriggerBasic", "PropertyTriggerBaisc\PropertyTriggerBasic.csproj", "{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8483755A-4AD5-4D2D-AA92-D1E016297756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8483755A-4AD5-4D2D-AA92-D1E016297756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8483755A-4AD5-4D2D-AA92-D1E016297756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
