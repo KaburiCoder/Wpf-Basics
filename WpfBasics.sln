@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlTemplateBasic", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTriggerBasic", "PropertyTriggerBaisc\PropertyTriggerBasic.csproj", "{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTriggerBasic", "EventTriggerBasic\EventTriggerBasic.csproj", "{7794212A-8376-4163-9698-28BCA86E14CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7BFDAD5-4A12-4833-ADB4-0C38495F40DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7794212A-8376-4163-9698-28BCA86E14CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7794212A-8376-4163-9698-28BCA86E14CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7794212A-8376-4163-9698-28BCA86E14CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7794212A-8376-4163-9698-28BCA86E14CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
