@@ -20,16 +20,16 @@
       <Setter Property="HorizontalAlignment" Value="Center"/>
       <Setter Property="VerticalAlignment" Value="Center"/>
       <Style.Triggers>
-        <DataTrigger Binding="{Binding Text, ElementName=txt}" Value="Red">
+        <DataTrigger Binding="{Binding TextProperty}" Value="Red">
           <Setter Property="Background" Value="Red"/>
           <Setter Property="Foreground" Value="White"/>
         </DataTrigger>
-        <DataTrigger Binding="{Binding Text, ElementName=txt}" Value="Orange">
+        <DataTrigger Binding="{Binding TextProperty}" Value="Orange">
           <Setter Property="Background" Value="Orange"/>
           <Setter Property="Foreground" Value="White"/>
         </DataTrigger>
 
-        <DataTrigger Binding="{Binding Text, ElementName=txt}" Value="Green">
+        <DataTrigger Binding="{Binding TextProperty}" Value="Green">
           <Setter Property="Background" Value="Green"/>
           <Setter Property="Foreground" Value="White"/>
         </DataTrigger>
@@ -44,7 +44,8 @@
 
     <TextBox 
       x:Name="txt"
-      Grid.Column="0"      
+      Grid.Column="0"
+      Text="{Binding TextProperty, UpdateSourceTrigger=PropertyChanged}"
       Style="{StaticResource TextBoxStyle}"/>
     <TextBlock 
       Grid.Column="1"
