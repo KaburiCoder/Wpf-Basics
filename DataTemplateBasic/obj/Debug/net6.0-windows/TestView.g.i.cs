@@ -53,7 +53,7 @@ namespace DataTemplateBasic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DataTemplateBasic;component/testview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DataTemplateBasic;V1.0.0.0;component/testview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TestView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

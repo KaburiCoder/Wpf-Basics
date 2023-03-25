@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IyT43DdZQmA773oCcm1mQAOt5gihm7Rc4bWv9nPYvReTfX3BMS+PVxxHj+fdssylAyGq4l+erqpTtQUM3LjDbg==",
+  "success": true,
+  "projectFilePath": "C:\\YoutubeLecture\\WpfBasics\\WpfOxyPlotGraph\\WpfOxyPlotGraph.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\oxyplot.wpf\\2.1.2\\oxyplot.wpf.2.1.2.nupkg.sha512",
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTriggerBasic", "EventT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTriggerBasic", "DataTriggerBasic\DataTriggerBasic.csproj", "{6C438AB3-9FD7-436A-AA0C-0A920018C8D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextBoxBasic", "RichTextBoxBasic\RichTextBoxBasic.csproj", "{1819A951-C1AD-4F3E-AA9C-F886B75E3F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RichTextBoxBasic", "RichTextBoxBasic\RichTextBoxBasic.csproj", "{1819A951-C1AD-4F3E-AA9C-F886B75E3F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfOxyPlotGraph", "WpfOxyPlotGraph\WpfOxyPlotGraph.csproj", "{FC3A851D-FA17-4D1C-B0E5-ECDABE96787D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{1819A951-C1AD-4F3E-AA9C-F886B75E3F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1819A951-C1AD-4F3E-AA9C-F886B75E3F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1819A951-C1AD-4F3E-AA9C-F886B75E3F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3A851D-FA17-4D1C-B0E5-ECDABE96787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3A851D-FA17-4D1C-B0E5-ECDABE96787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3A851D-FA17-4D1C-B0E5-ECDABE96787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3A851D-FA17-4D1C-B0E5-ECDABE96787D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
